@@ -1,2 +1,8 @@
 # sTiKytConfigs
-`ln -s ~/Documents/custom_configurations/sTiKytConfigs/nvim ~/.config/nvim`
+
+### Required Symbolic Links
+
+`ln -s ~/sTiKytConfigs/nvim ~/.config/nvim`
+`ln -s ~/sTiKytConfigs/kitty ~/.config/kitty`
+`ln -s ~/sTiKytConfigs/ranger ~/.config/ranger`
+
