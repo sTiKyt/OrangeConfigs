@@ -10,4 +10,5 @@
     "json",
     "python"
   ],
+  "jedi.executable.command": "jedi-language-server"
 }
