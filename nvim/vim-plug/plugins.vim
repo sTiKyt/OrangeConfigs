@@ -16,6 +16,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'junegunn/rainbow_parentheses.vim'
 	" Asynchronous displaying of colours in the file
 	Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }	
+	" Syntax plugin for plain-text notes
+	Plug 'junegunn/vim-journal'
 	" Installation of tender theme
 	Plug 'jacoborus/tender.vim'
 	" Nodejs extension host
