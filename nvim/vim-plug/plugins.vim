@@ -18,6 +18,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'jacoborus/tender.vim'
 	" Add file type icons to Vim plugins, make sure to run it last!
 	Plug 'ryanoasis/vim-devicons'
+	" Nodejs extension host
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	
 
 	" END OF PLUG SECTION
