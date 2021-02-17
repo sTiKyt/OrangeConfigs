@@ -18,6 +18,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'jacoborus/tender.vim'
 	" Nodejs extension host
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	" Coc Jedi for Python
+	Plug 'pappasam/coc-jedi', {'do':'yarn install --frozen-lockfile && yarn build'}
+
+
 	" Add file type icons to Vim plugins, make sure to run it last!
 	Plug 'ryanoasis/vim-devicons'
 	

@@ -5,7 +5,6 @@ let g:coc_global_extensions = [
       \'coc-cmake',
       \'coc-css',
       \'coc-cssmodules',
-      \'coc-jedi',
       \'coc-markdownlint',
       \'coc-xml',
       \'coc-yaml',
