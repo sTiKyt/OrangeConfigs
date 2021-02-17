@@ -4,7 +4,6 @@ set hidden                " Allows you to have multiple buffers open
 set nowrap                " Display long lines as one line instead of wrapping around them
 set encoding=UTF-8        " Default encoding for neovim and other modern software, required by some plugins
 set fileencoding=utf-8    " Encoding written to a file
-set termguicolors         " Enables 24-bit RGB color in the TUI, requires compatible terminal
 set pumheight=10          " Makes popup menu smaller
 set ruler                 " Show the cursor position
 set cmdheight=2           " Gives more space to display messages at the bottom
