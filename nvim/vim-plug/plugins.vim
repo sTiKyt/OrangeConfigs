@@ -4,7 +4,7 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 	"autocmd VimEnter * PlugInstall
 	"autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
-
+" START OF PLUG SECTION
 call plug#begin('~/.config/nvim/autoload/plugged')
 	" Better Syntax
 	Plug 'sheerun/vim-polyglot'
@@ -18,4 +18,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" Add file type icons to Vim plugins
 	Plug 'ryanoasis/vim-devicons'
 
+	" END OF PLUG SECTION
 call plug#end()
