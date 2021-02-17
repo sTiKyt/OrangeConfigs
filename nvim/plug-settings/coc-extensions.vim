@@ -8,6 +8,5 @@ let g:coc_global_extensions = [
       \'coc-markdownlint',
       \'coc-xml',
       \'coc-yaml',
-      \'coc-toml',
       \'coc-html',
       \'coc-snippets']
