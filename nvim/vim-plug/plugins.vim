@@ -16,10 +16,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }	
 	" Installation of tender theme
 	Plug 'jacoborus/tender.vim'
+	" Nodejs extension host
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	" Add file type icons to Vim plugins, make sure to run it last!
 	Plug 'ryanoasis/vim-devicons'
-	" Nodejs extension host
-	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	
 
 	" END OF PLUG SECTION
