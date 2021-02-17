@@ -14,6 +14,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'jiangmiao/auto-pairs'
 	" Asynchronous displaying of colours in the file
 	Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }	
+	" Installation of tender theme
+	Plug 'jacoborus/tender.vim'
 	" Add file type icons to Vim plugins, make sure to run it last!
 	Plug 'ryanoasis/vim-devicons'
 	
