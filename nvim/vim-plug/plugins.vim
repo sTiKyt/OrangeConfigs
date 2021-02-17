@@ -10,7 +10,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'sheerun/vim-polyglot'
 	" File Explorer
 	Plug 'preservim/nerdtree'
-	" Autopairs for blackets, parens and quotes
+	" Autopairs for brackets, parenheses and quotes
 	Plug 'jiangmiao/auto-pairs'
 	" Makes parentheses amd brackets color-coded
 	Plug 'junegunn/rainbow_parentheses.vim'
