@@ -12,6 +12,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'preservim/nerdtree'
 	" Autopairs for blackets, parens and quotes
 	Plug 'jiangmiao/auto-pairs'
+	" Makes parentheses amd brackets color-coded
+	Plug 'junegunn/rainbow_parentheses.vim'
 	" Asynchronous displaying of colours in the file
 	Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }	
 	" Installation of tender theme
