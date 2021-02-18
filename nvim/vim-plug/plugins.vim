@@ -13,6 +13,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" Airline status/tabline
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
+	" Adds Pydocstring generator
+	Plug 'heavenshell/vim-pydocstring', {'do': 'make install'}
 	" Whitespace highlighting
 	Plug 'ntpeters/vim-better-whitespace'
 	" Makes parentheses amd brackets color-coded
