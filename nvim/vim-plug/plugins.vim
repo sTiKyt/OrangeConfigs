@@ -8,8 +8,6 @@ endif
 call plug#begin('~/.config/nvim/autoload/plugged')
 	" Better Syntax
 	Plug 'sheerun/vim-polyglot'
-	" File Explorer
-	Plug 'preservim/nerdtree'
 	" Autopairs for brackets, parenheses and quotes
 	Plug 'jiangmiao/auto-pairs'
 	" Airline status/tabline
