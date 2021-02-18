@@ -8,6 +8,7 @@
 
 `ln -s ~/sTiKytConfigs/ranger ~/.config/ranger`
 
+`ln -s ~/sTiKytConfigs/zsh/.zshrc ~/.zshrc`
 `ln -s ~/sTiKytConfigs/.oh-my-zsh ~/.oh-my-zsh`
 
 ### Required commands
