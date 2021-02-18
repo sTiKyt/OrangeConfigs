@@ -13,6 +13,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	" Airline status/tabline
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
+	" Whitespace highlighting
+	Plug 'ntpeters/vim-better-whitespace'
 	" Makes parentheses amd brackets color-coded
 	Plug 'junegunn/rainbow_parentheses.vim'
 	" Asynchronous displaying of colours in the file

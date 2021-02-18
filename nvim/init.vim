@@ -15,6 +15,7 @@ source $HOME/.config/nvim/plug-settings/coc-explorer_config.vim
 source $HOME/.config/nvim/plug-settings/hexokinase_config.vim
 source $HOME/.config/nvim/plug-settings/airline_config.vim
 source $HOME/.config/nvim/plug-settings/rainbow_parentheses_config.vim
+source $HOME/.config/nvim/plug-settings/better_whitespace_config.vim
 """ THEMES SECTION
 
 source $HOME/.config/nvim/themes/tender.vim
