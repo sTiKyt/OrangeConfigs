@@ -3,6 +3,8 @@
 source $HOME/.config/nvim/settings/gui_color_check.vim
 source $HOME/.config/nvim/settings/providers.vim
 source $HOME/.config/nvim/settings/settings.vim
+""" KEYBINDS SECTION
+source $HOME/.config/nvim/keybindings/buffers.vim
 """ PLUGINS SECTION
 source $HOME/.config/nvim/vim-plug/plugins.vim
 " coc and coc extensions 
