@@ -8,3 +8,8 @@
 
 `ln -s ~/sTiKytConfigs/ranger ~/.config/ranger`
 
+`ln -s ~/sTiKytConfigs/.oh-my-zsh ~/.oh-my-zsh`
+
+### Required commands
+
+`cd ~/.oh-my-zsh` > `cd tools` > `./install.sh`
