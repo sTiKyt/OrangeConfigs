@@ -23,6 +23,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }	
 	" Syntax plugin for plain-text notes
 	Plug 'junegunn/vim-journal'
+	" Syntax highlighting of toml
+	Plug 'cespare/vim-toml'
 	" Installation of tender theme
 	Plug 'jacoborus/tender.vim'
 	" Nodejs extension host
