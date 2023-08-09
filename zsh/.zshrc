@@ -13,7 +13,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-ZSH=~/.oh-my-zsh
+ZSH=/usr/share/oh-my-zsh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -117,5 +117,5 @@ fi
 
 source $ZSH/oh-my-zsh.sh
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# To customize prompt, run `p10k configure` or edit ~/Documents/Configs/zsh/.p10k.zsh.
+[[ ! -f ~/Documents/Configs/zsh/.p10k.zsh ]] || source ~/Documents/Configs/zsh/.p10k.zsh
