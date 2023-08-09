@@ -187,6 +187,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+	tray_output primary
 }
 
 # Change keyboard layout
@@ -197,7 +198,16 @@ exec --no-startup-id "setxkbmap -layout us,ru,ua -option grp:lctrl_lshift_toggle
 bindsym Print exec "flameshot gui"
 
 # Set screen layout
+exec --no-startup-id autorandr default
 exec_always --no-startup-id autorandr --change
+
+# Disable screen timeout
+exec_always --no-startup-id xset s off
+exec_always --no-startup-id xset -dpms
 
 # Load RGB stuff
 exec_always --no-startup-id openrgb --profile RGBStuff
+
+# Wallpapers config
+exec --no-startup-id variety
+
