@@ -16,4 +16,4 @@
 
 ### Required commands
 
-`cd ~/.oh-my-zsh` > `cd tools` > `./install.sh`
+`paru -S thefuck`
