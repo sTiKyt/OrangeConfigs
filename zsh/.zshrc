@@ -119,3 +119,9 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/Documents/Configs/zsh/.p10k.zsh.
 [[ ! -f ~/Documents/Configs/zsh/.p10k.zsh ]] || source ~/Documents/Configs/zsh/.p10k.zsh
+
+
+
+# Plugin thefuck
+eval $(thefuck --alias)
+eval $(thefuck --alias FUCK)
