@@ -211,3 +211,5 @@ exec_always --no-startup-id openrgb --profile RGBStuff
 # Wallpapers config
 exec --no-startup-id variety
 
+#Popup clipman shortcut
+bindsum Shift+V xfce4-popup-clipman

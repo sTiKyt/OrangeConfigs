@@ -8,9 +8,3 @@ include audio/sound.conf
 include shortcuts/keyboard.conf
 
 shell zsh
-
-
-# BEGIN_KITTY_THEME
-# Catppuccin-Mocha
-include current-theme.conf
-# END_KITTY_THEME

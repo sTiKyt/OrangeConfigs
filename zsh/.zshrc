@@ -81,7 +81,7 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git adb colored-man-pages sudo)
+plugins=(git colored-man-pages sudo)
 
 
 # User configuration
@@ -125,3 +125,28 @@ source $ZSH/oh-my-zsh.sh
 # Plugin thefuck
 eval $(thefuck --alias)
 eval $(thefuck --alias FUCK)
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/usr/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/usr/etc/profile.d/conda.sh" ]; then
+        . "/usr/etc/profile.d/conda.sh"
+    else
+        export PATH="/usr/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+# Ruby User Config
+export GEM_HOME="$(gem env user_gemhome)"
+export PATH="$PATH:$GEM_HOME/bin"
+
+# Setting the XDG_DATA_DIRS environment variable to include the default
+# system directories where data files (like themes for Rofi) are stored.
+# This ensures that scripts and applications can find the necessary data files.
+export XDG_DATA_DIRS=/usr/local/share:/usr/share
+
